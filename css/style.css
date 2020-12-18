@@ -1,0 +1,586 @@
+body {
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #0a1f30;
+}
+
+.bgline {
+ height: 95%;
+ width: 95%;
+ position: absolute;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.bgline2 {
+	height: 95%;
+	width: 87%;
+	position: absolute;
+	display: flex;
+	align-items:flex-start;
+	justify-content: space-between;
+}
+
+.bgline3 {
+	height: 95%;
+	width: 87%;
+	position: absolute;
+	display: flex;
+	align-items:flex-end;
+	justify-content: space-between;
+}
+
+.mini {
+	height: 13%;
+	width: 7%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.baseline1 {
+	height: 50%;
+	width: 60%;
+	position: absolute;
+	bottom: 31%;
+}
+
+.baseline2 {
+	height: 35%;
+	width: 50%;
+	position: absolute;
+	bottom: 31%;
+}
+
+
+
+.title {
+	height: 17%;
+	width: 50%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	bottom: 9.5%;
+}
+
+.title2 {
+	height: 17%;
+	width: 60%;
+	position: absolute;
+	bottom: 9%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title3 {
+	height: 3.5%;
+	width: 31%;
+	position: absolute;
+	bottom: 8.5%;
+	display: flex;
+	justify-content: center;
+}
+
+.christmas {
+	height: 10%;
+	width: 32%;
+	position: absolute;
+	bottom: 14.2%;
+	display: flex;
+	justify-content: center;
+}
+
+.mobile1 {
+	height: 25%;
+	width: 8%;
+	position: absolute;
+	top: 7.5%;
+	left: 20%;
+}
+
+.mobile2 {
+	height: 30%;
+	width: 8%;
+	position: absolute;
+	top: 7.5%;
+	right: 28%;
+}
+
+.mobile3 {
+	height: 30%;
+	width: 8%;
+	position: absolute;
+	top: 7.5%;
+	right: 18%;
+}
+
+.snow {
+height: 8%;
+width: 30%;
+position: absolute;
+top: 10%;
+display: flex;
+align-items: flex-start;
+}
+
+.snow2 {
+	height: 18%;
+	width: 40%;
+	position: absolute;
+	top: 15%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	}
+
+.star {
+	height: 10%;
+	width: 5%;
+	position: absolute;
+	top: 9.5%;
+}
+
+.tree {
+	height: 21%;
+	width: 70%;
+	position: absolute;
+	top: 35%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.twinkle {
+	height: 30%;
+	width: 77%;
+	top: 11%;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.sled {height: 100%;
+	width: 20%;
+}
+
+.line2 {
+	fill: none;
+	stroke: #fff67c;
+	stroke-width: 3;
+	stroke-miterlimit: 00;
+
+	stroke-dasharray: 400 400;
+
+	animation-name: draw;
+	animation-duration: 4.5s;
+	animation-iteration-count: infinite;
+}
+
+.line3 {
+	fill: none;
+	stroke: #fff67c;
+	stroke-width: 3;
+	stroke-miterlimit: 00;
+
+	stroke-dasharray: 400 400;
+
+	animation-name: draw;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.line4 {
+	fill: none;
+	stroke: #fff67c;
+	stroke-width: 3;
+	stroke-miterlimit: 00;
+
+	stroke-dasharray: 400 400;
+
+	animation-name: draw;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.line5 {
+	fill: none;
+	stroke: #fff67c;
+	stroke-width: 3;
+	stroke-miterlimit: 00;
+
+	stroke-dasharray: 400 400;
+
+	animation-name: draw;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.line {
+	fill: none;
+	stroke: #fff67c;
+	stroke-width: 3;
+}
+
+.snowline1 {
+	fill: none;
+	stroke: #fff67c;
+	stroke-width: 3;
+	animation-name: snowline1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.snowline2 {
+	fill: none;
+	stroke: #fff67c;
+	stroke-width: 3;
+	animation-name: snowline2;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+.circle {
+	fill: #fff67c;
+	stroke: none;
+	stroke-width: 3;
+	animation-name: circle;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+.circle1 {
+	fill:none;
+	stroke:  #fff67c;
+	stroke-width: 3;
+	animation-name: circle1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;}
+
+.circle2 {
+	fill:#fff67c;
+	stroke:  #fff67c;
+	stroke-width: 3;
+	animation-name: circle2;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;}
+
+.circle3 {
+		fill: none;
+		stroke:  #fff67c;
+		stroke-width: 3;
+		animation-name: circle1;
+		animation-duration: 1.5s;
+		animation-iteration-count: infinite;}
+		
+.circle4 {
+	fill:#fff67c;
+	stroke:  #fff67c;
+	stroke-width: 3;
+	animation-name: circle2;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;}
+
+.circle5 {
+	fill:#fff67c;
+	stroke:  #fff67c;
+	stroke-width: 3;
+	animation-name: circle2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;}
+
+.star1  {
+	fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 4s;
+}
+
+.star2 
+{fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 5s;}
+
+.star3 
+{fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 6s;}
+
+.star4 
+{fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 7s;}
+
+.star5 
+{fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 8s;}
+
+.star6 
+{fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 9s;}
+
+.star7 
+{fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 10s;}
+
+.star8
+{fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 11s;}
+
+.star9
+{fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 12s;}
+
+.star10
+{fill: none;
+stroke:  #fff67c;
+stroke-width: 3;
+animation-name: star;
+animation-duration: .5s;
+animation-iteration-count: infinite;
+animation-delay: 13s;}
+
+.twinklestar {
+	fill:#fff67c;
+	animation-name: circle1;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+.twinklestar2 {
+	fill:#fff67c;
+	animation-name: circle2;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+.sledgrid {
+	height: 6%;
+	width: 55%;
+	bottom: 33%;
+	position: absolute;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.sled {height: 100%;
+	width: 20%;
+}
+
+.sled1 {
+	animation-name: sled1;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.sled2 {
+	animation-name: sled2;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+.tree1 {
+	animation-name: tree1;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.tree2 {
+	animation-name: tree1;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;}
+
+.tree3{
+	animation-name: tree1;
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;}
+
+@keyframes tree1 {
+	0%{fill: #0a1f30;}
+		50% {fill: #fff67c;}
+		100%{fill: #0a1f30;}
+}
+
+@keyframes sled1 {
+	0% {transform:translateX(0px);}
+	50% {transform:translateX(-120px);}
+	100% {transform:translateX(0px);}
+}
+
+@keyframes sled2 {
+	0% {transform:translateX(0px);}
+	50% {transform:translateX(120px);}
+	100% {transform:translateX(0px);}
+}
+
+@keyframes draw {
+	0% {stroke-dashoffset: 400;}
+	50% {stroke-dashoffset: 0;}
+	100% {stroke-dashoffset: 400;}
+}
+
+
+@keyframes circle {
+	0% {fill: #fff67c; stroke-width: 3; stroke: #fff67c;}
+	50% {fill: #fff67c;}
+	100% {fill: #fff67c; stroke-width: 3; stroke: #fff67c;}
+}
+
+@keyframes circle2 {
+	0% {fill:#fff67c;}
+	50% {fill:none;}
+	100% {fill:#fff67c;}
+}
+
+@keyframes circle1 {
+	0% {fill:none;}
+	50% {fill:#fff67c;}
+	100% {fill:none;}
+}
+
+
+
+@keyframes snowline1 {
+	0% { stroke-width: 3;}
+	50% {stroke-width: 0;}
+	100% {stroke-width: 3;}
+}
+
+@keyframes snowline2 {
+	0% { stroke-width: 0;}
+	50% {stroke-width: 3;}
+	100% {stroke-width: 0;}
+}
+
+@keyframes star {
+	0% { fill:none;}
+	50% {fill:#fff67c;}
+	100% { fill:none;}
+}
+
+/*
+HTML - 태그로 구성되어 있는 골격
+CSS - 골격에다가 옷을 입히는 것
+Javascript(Jquery) - HTML, CSS 요소 컨트롤 [액션, 애니메이션 포함 스타일]
+
+/*
+position: relative; - 상대값
+position: absolute; - 절대값
+position: fixed; - 고정
+*/
+
+/*
+margin - 외부간격
+padding - 내부간격
+*/
+
+/* flex
+기본 설정으로 좌`측에서 우측으로 아이템 정렬[Flex가 적용된 div 안에 적용]
+기본 설정으로 한 줄에 아이템이 다 들어가며, 동등한 비율로 영역 차지
+flex-direction: column으로 진행방향 변경 가능[상-하 정렬]
+*/
+
+/* Align-items[세로 정렬]
+center: 가운데 정렬
+flex-start: 상단 정렬
+flex-end: 하단 정렬 
+
+justify-content[가로 정렬]
+space-between: 대지 기준 세로 가운데 정렬
+center: 세로 가운데 / 가로 가운데 정렬
+space-around: 일정한 공간 배분
+
+/* CSS transition
+transition-property : transition을 적용시킬 속성을 정합니다. 
+	all: 모두 적용;
+transition-timing-function : transition의 진행 속도를 정합니다. 
+transition-duration : transition의 총 시간을 정합니다.
+transition-delay : transition의 시직을 연기합니다.
+*/
+
+/* Animation
+animation-name
+animation-duration: 1 사이클의 애니메이션이 얼마에 걸쳐 일어날 지 지정
+animation-delay: 엘리먼트가 로드되고 나서 언제 애니메이션을 시작할지 지정
+animation-direction: 애니메이션이 종료되고 다시 처음부터 역방향으로 진행할 지 지정
+animation-iteration-count: 애니메이션이 몇 번 반복될 지 지정.
+	infinite: 계속 반복
+animation-play-state: 애니메이션을 멈추거나 다시 시작
+	paused: 멈춤
+	running: 재생
+animation-timing-function: 중간 상태들의 전환을 어떤 시간 간격으로 진행할 지 지정
+	ease-in: 점점 빠르게
+	ease-out: 점점 느리게
+	ease-in-out: 느렸다가 빠르게
+	linear: 등속운동
+animation-fill-mode: 시작되기 전이나 끝나고 난 후 어떤 값으로 적용될지 지정합니다.
+	forwards;
+*/
+
+/* Css Transform 
+
+transform:scaleX(x축 비율);          // x축으로 확대, 축소
+transform:scaleY(y축 비율);          // y축으로 확대, 축소
+transform:scale(x축 비율, y축 비율);  // x축, y축으로 확대, 축소
+ 
+transform:rotateX(Ndeg);  // x축 기준으로 N도 만큼 회전
+transform:rotateY(Ndeg);  // y축 기준으로 N도 만큼 회전
+transform:rotate(Ndeg);   // N도 만큼 회전
+ 
+transform:translateX(10px);        // X축으로 10px 이동
+transform:translateY(10px);        // Y축으로 10px 이동
+transform:translate(-10px, -10px); // X축으로 -10px, Y축으로 -10px 이동
+ 
+transform:skewX(Ndeg);             // x축으로 N도 만큼 기울이기
+transform:skewY(Ndeg);             // y축으로 N도 만큼 기울이기
+transform:skew(x축 Ndeg, y축 Ndeg); // x축, y축으로 N도 만큼 기울이기
+ 
+transform-origin:x축 y축;  // px, 백분율(%), left, center, right 중에서 사용할 수 있습니다.
+*/
